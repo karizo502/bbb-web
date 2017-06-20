@@ -11,12 +11,14 @@ export default () => <nav className="nav has-shadow">
       </div>
       <div className="nav-right nav-menu">
         <span className="nav-item">
+          <NavLink to="/login" >
           <a className="button" >
             <span className="icon">
               <i className="fa fa-lock"></i>
             </span>
             <span>Login</span>
           </a>
+          </NavLink>
         </span>
       </div>
     </div>
