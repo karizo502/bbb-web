@@ -1,8 +1,9 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import { Home, Contact, PageNotFound } from 'Components/Pages'
+import { Contact, PageNotFound } from 'Components/Pages'
 import { CustomerList, CustomerProfile } from 'Components/Customers'
 import Login from 'Components/Login'
+import Home from "Components/Home";
 
 export default () => <div>
     <Switch>
